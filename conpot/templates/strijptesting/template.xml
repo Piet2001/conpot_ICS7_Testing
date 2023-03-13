@@ -4,20 +4,20 @@
         <entity name="unit">S7-200</entity>
         <entity name="vendor">FHICT</entity>
         <entity name="description">TESTING PLC</entity>
-        <entity name="protocols">HTTP, MODBUS, s7comm, SNMP</entity>
+        <entity name="protocols">HTTP, MODBUS, s7comm, SNMP, FTP</entity>
         <entity name="creator">the conpot team</entity>
     </template>
     <databus>
         <!-- Core value that can be retrieved from the databus by key -->
         <key_value_mappings>
             <key name="FacilityName">
-                <value type="value">"Mouser Factory"</value>
+                <value type="value">"Energy Factory"</value>
             </key>
             <key name="SystemName">
-                <value type="value">"FHICT after script"</value>
+                <value type="value">"FHICT"</value>
             </key>
             <key name="SystemDescription">
-                <value type="value">"Siemens, SIMATIC, S7-200"</value>
+                <value type="value">"FHICT, SIMATIC, S7-200"</value>
             </key>
             <key name="Uptime">
                 <value type="function">conpot.emulators.misc.uptime.Uptime</value>
