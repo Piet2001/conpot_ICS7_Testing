@@ -33,4 +33,4 @@ USER conpot
 WORKDIR /home/conpot
 ENV USER=conpot
 ENTRYPOINT ["/home/conpot/.local/bin/conpot"]
-CMD ["--template", "snmp", "--logfile", "/var/log/conpot/conpot.log", "-f", "--temp_dir", "/tmp" ]
+CMD ["--template", "strijptesting", "--logfile", "/var/log/conpot/conpot.log", "-f", "--temp_dir", "/tmp" ]

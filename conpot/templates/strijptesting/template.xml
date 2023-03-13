@@ -4,7 +4,7 @@
         <entity name="unit">S7-200</entity>
         <entity name="vendor">FHICT</entity>
         <entity name="description">TESTING PLC</entity>
-        <entity name="protocols">HTTP, MODBUS, s7comm, SNMP, FTP</entity>
+        <entity name="protocols">MODBUS, s7comm, SNMP, FTP</entity>
         <entity name="creator">the conpot team</entity>
     </template>
     <databus>
