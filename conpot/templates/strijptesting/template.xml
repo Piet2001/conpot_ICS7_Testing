@@ -2,8 +2,8 @@
     <template>
         <!-- General information about the template -->
         <entity name="unit">S7-200</entity>
-        <entity name="vendor">Siemens</entity>
-        <entity name="description">Rough simulation of a basic Siemens S7-200 CPU with 2 slaves</entity>
+        <entity name="vendor">FHICT</entity>
+        <entity name="description">TESTING PLC</entity>
         <entity name="protocols">HTTP, MODBUS, s7comm, SNMP</entity>
         <entity name="creator">the conpot team</entity>
     </template>
@@ -14,7 +14,7 @@
                 <value type="value">"Mouser Factory"</value>
             </key>
             <key name="SystemName">
-                <value type="value">"Technodrome"</value>
+                <value type="value">"FHICT"</value>
             </key>
             <key name="SystemDescription">
                 <value type="value">"Siemens, SIMATIC, S7-200"</value>
