@@ -33,8 +33,8 @@
             <symbol name="sysServices">
                 <value>sysServices</value>
             </symbol>
-            <symbol name="sys_comm_version">
-                <value>sys_comm_version</value>
+            <symbol name="sysVersion">
+                <value>sysVersion</value>
             </symbol>
         </mib>
     </mibs>
