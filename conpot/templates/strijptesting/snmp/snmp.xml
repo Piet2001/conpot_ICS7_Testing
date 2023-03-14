@@ -33,9 +33,6 @@
             <symbol name="sysServices">
                 <value>sysServices</value>
             </symbol>
-            <symbol name="sysVersion">
-                <value>sysVersion</value>
-            </symbol>
         </mib>
     </mibs>
 </snmp>
