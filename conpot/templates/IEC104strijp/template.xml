@@ -20,7 +20,7 @@
     <template>
         <!-- General information about the template -->
         <entity name="unit">S7-300</entity>
-        <entity name="vendor">Siemens</entity>
+        <entity name="vendor">IEC104 Strijp</entity>
         <entity name="description">Creates a simple device for IEC 60870-5-104</entity>
         <entity name="protocols">IEC104, SNMP</entity>
         <entity name="creator">Patrick Reichenberger</entity>
