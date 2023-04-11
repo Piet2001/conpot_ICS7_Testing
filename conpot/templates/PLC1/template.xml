@@ -54,10 +54,10 @@
                 <value type="value">"72"</value>
             </key>
             <key name="IncomingFeederVoltage">
-                <value type="value">random.randint(2,35)</value>
+                <engine type="randomint">2:35</engine>
             </key>
             <key name="TransformerPrimaryVoltage">
-                <value type="value">random.randint(2,35)</value>
+                <engine type="randomint">2:35</engine>
             </key>
             <key name="TransformerSecondaryVoltage">
                 <value type="value">"11"</value>
