@@ -44,6 +44,9 @@
             <key name="sysName">
                 <value type="value">"PLC 1.0 FHICT"</value>
             </key>
+            <key name="SystemName">
+                <value type="value">"PLC 1.0 FHICT"</value>
+            </key>
             <key name="sysLocation">
                 <value type="value">"Eindhoven"</value>
             </key>
