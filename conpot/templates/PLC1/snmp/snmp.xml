@@ -37,19 +37,19 @@
         </mib>
         <mib name="HVL-MIB">
             <symbol name="IncomingFeederVoltage">
-                    <value>IncomingFeederVoltage</value><!-- Paris -->
+                    <value>IncomingFeederVoltage</value>
             </symbol>
             <symbol name="TransformerPrimaryVoltage">
-                    <value>TransformerPrimaryVoltage</value><!-- Paris -->
+                    <value>TransformerPrimaryVoltage</value>
             </symbol>
             <symbol name="TransformerSecondaryVoltage">
-                    <value>TransformerSecondaryVoltage</value><!-- Paris -->
+                    <value>TransformerSecondaryVoltage</value>
             </symbol>
             <symbol name="FeederVoltage">
-                    <value>FeederVoltage</value><!-- Paris -->
+                    <value>FeederVoltage</value>
             </symbol>
             <symbol name="SubstationBusVoltage">
-                    <value>SubstationBusVoltage</value><!-- Paris -->
+                    <value>SubstationBusVoltage</value>
             </symbol>
         </mib>
     </mibs>
