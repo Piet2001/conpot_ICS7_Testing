@@ -35,7 +35,7 @@
                 <value>sysServices</value><!-- 72 -->
             </symbol>
             <!--  own values-->
-            <symbol name="IncomingFeederVoltage">
+            <!-- <symbol name="IncomingFeederVoltage">
                 <value>IncomingFeederVoltage</value>
             </symbol>
             <symbol name="TransformerPrimaryVoltage">
@@ -49,7 +49,7 @@
             </symbol>
             <symbol name="SubstationBusVoltage">
                 <value>SubstationBusVoltage</value>
-            </symbol>
+            </symbol> -->
         </mib>
     </mibs>
 </snmp>
