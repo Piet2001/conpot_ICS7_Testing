@@ -35,5 +35,22 @@
                 <value>sysServices</value><!-- 72 -->
             </symbol>
         </mib>
+        <mib name="HVL-MIB">
+            <symbol name="IncomingFeederVoltage">
+                    <value>IncomingFeederVoltage</value><!-- Paris -->
+            </symbol>
+            <symbol name="TransformerPrimaryVoltage">
+                    <value>TransformerPrimaryVoltage</value><!-- Paris -->
+            </symbol>
+            <symbol name="TransformerSecondaryVoltage">
+                    <value>TransformerSecondaryVoltage</value><!-- Paris -->
+            </symbol>
+            <symbol name="FeederVoltage">
+                    <value>FeederVoltage</value><!-- Paris -->
+            </symbol>
+            <symbol name="SubstationBusVoltage">
+                    <value>SubstationBusVoltage</value><!-- Paris -->
+            </symbol>
+        </mib>
     </mibs>
 </snmp>
