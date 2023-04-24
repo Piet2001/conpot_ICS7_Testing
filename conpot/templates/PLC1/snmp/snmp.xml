@@ -34,22 +34,21 @@
             <symbol name="sysServices">
                 <value>sysServices</value><!-- 72 -->
             </symbol>
-        </mib>
-        <mib name="HVL-MIB">
+            <!--  own values-->
             <symbol name="IncomingFeederVoltage">
-                    <value>IncomingFeederVoltage</value>
+                <value>IncomingFeederVoltage</value>
             </symbol>
             <symbol name="TransformerPrimaryVoltage">
-                    <value>TransformerPrimaryVoltage</value>
+                <value>TransformerPrimaryVoltage</value>
             </symbol>
             <symbol name="TransformerSecondaryVoltage">
-                    <value>TransformerSecondaryVoltage</value>
+                <value>TransformerSecondaryVoltage</value>
             </symbol>
             <symbol name="FeederVoltage">
-                    <value>FeederVoltage</value>
+                <value>FeederVoltage</value>
             </symbol>
             <symbol name="SubstationBusVoltage">
-                    <value>SubstationBusVoltage</value>
+                <value>SubstationBusVoltage</value>
             </symbol>
         </mib>
     </mibs>
