@@ -34,7 +34,6 @@
             <symbol name="sysServices">
                 <value>sysServices</value><!-- 72 -->
             </symbol>
-            <!-- own values -->
             <symbol name="IncomingFeederVoltage">
                 <value>IncomingFeederVoltage</value>
             </symbol>
