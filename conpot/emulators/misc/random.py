@@ -35,7 +35,7 @@ class Random16bitRegister:
         return [self.key_num.randint(0, 1)]
 
 class RandomValueBetween:
-    def __init__(self, start, end):
+    def __init__(self, start=0, end=10):
         self.start = start
         self.end = end
 
