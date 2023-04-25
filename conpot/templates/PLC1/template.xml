@@ -54,7 +54,7 @@
                 <value type="value">"72"</value>
             </key>
             <key name="IncomingFeederVoltage">
-                <value type="value">"33"</value>
+                <value type="function">conpot.emulators.misc.random.RandomValueBetween2And35</value>
             </key>
             <key name="TransformerPrimaryVoltage">
                 <value type="value">"33"</value>
