@@ -45,10 +45,10 @@ class RandomValueBetween2And35:
         return random.randint(self.start, self.end)
 
 
-class RandomValueBetween20And40:
+class RandomValueBetween20And50:
     def __init__(self):
         self.start = 20
-        self.end = 40
+        self.end = 50
 
     def get_value(self):
         return random.randint(self.start, self.end)
