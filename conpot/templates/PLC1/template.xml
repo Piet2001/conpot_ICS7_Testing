@@ -68,6 +68,9 @@
             <key name="SubstationBusVoltage">
                 <value type="value">"11"</value>
             </key>
+            <key name="SubstationAmbientTemp">
+                <value type="value">"34"</value>
+            </key>
         </key_value_mappings>
     </databus>
 </core>

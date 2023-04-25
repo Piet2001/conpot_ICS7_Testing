@@ -43,3 +43,12 @@ class RandomValueBetween2And35:
 
     def get_value(self):
         return random.randint(self.start, self.end)
+
+
+class RandomValueBetween20And40:
+    def __init__(self):
+        self.start = 20
+        self.end = 40
+
+    def get_value(self):
+        return random.randint(self.start, self.end)
