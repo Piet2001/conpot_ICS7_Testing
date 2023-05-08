@@ -71,6 +71,12 @@
             <key name="SubstationAmbientTemp">
                 <value type="function">conpot.emulators.misc.random.RandomValueBetween20And50</value>
             </key>
+            <key name="PowerFactor">
+                <value type="value">"1.0"</value>
+            </key>
+            <key name="Switches">
+                <value type="value">"Closed"</value>
+            </key>
         </key_value_mappings>
     </databus>
 </core>

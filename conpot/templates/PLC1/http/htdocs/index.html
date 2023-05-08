@@ -83,10 +83,32 @@
 
         </tr>
 
+    </table>
+
+    <h3>Temperature:</h3>
+    <table border="0">
         <tr>
             <td style="width:150px;"><b>Substation ambient temperature:</b></td>
             <td>
                 <condata source="databus" key="SubstationAmbientTemp" /> &#8451;
+            </td>
+        </tr>
+
+    </table>
+
+    <h3>Other:</h3>
+    <table border="0">
+        <tr>
+            <td style="width:150px;"><b>Power factor:</b></td>
+            <td>
+                <condata source="databus" key="PowerFactor" />
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width:150px;"><b>Status of the switches:</b></td>
+            <td>
+                <condata source="databus" key="Switches" />
             </td>
         </tr>
 
