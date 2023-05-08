@@ -30,7 +30,7 @@
         <key_value_mappings>
             <!-- SNMPv2-MIB -->
             <key name="SystemDescription">
-                <value type="value">"Test, SIMATIC, S7-300"</value>
+                <value type="value">"Siemens, SIMATIC, S7-300"</value>
             </key>
             <key name="sysObjectID">
                 <value type="value">"0.0"</value>
