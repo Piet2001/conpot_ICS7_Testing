@@ -19,12 +19,20 @@
     <ftp_users>
         <users group="45:ftp">   <!-- Format of the group is gid:gname. -->
             <user uid="13">
-                <uname>FHICT</uname>
-                <password>login</password>
+                <uname>admin</uname>
+                <password>admin</password>
             </user>
             <user uid="10">
                 <uname>ftpuser</uname>
                 <password>ftplogin</password>
+            </user>
+            <user uid="20">
+                <uname>conpot</uname>
+                <password>password</password>
+            </user>
+            <user uid="21">
+                <uname>fhict</uname>
+                <password>login</password>
             </user>
         </users>
         <anon_login enabled="True" uid="32">
