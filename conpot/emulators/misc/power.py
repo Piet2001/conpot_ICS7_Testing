@@ -26,10 +26,6 @@ class EnergyConsumption:
         else:
             initial = calendar.timegm(time.gmtime())
         self.started = calendar.timegm(time.gmtime(initial))
-        self.sec = (calendar.timegm(time.gmtime()) - self.started) * 10
-        self.power = 5000
-        self.UptimeInHours = self.sec
-        self.consumption = self.power * self.UptimeInHours
 
     def get_value(self):
-        return self.sec
+        return calendar.timegm(time.gmtime()) - self.started
