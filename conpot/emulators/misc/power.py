@@ -31,4 +31,4 @@ class EnergyConsumption:
         self.UptimeInHours = sec / 3600
 
     def get_value(self):
-        return round(self.power * self.UptimeInHours, 2)
+        return self.power * self.UptimeInHours,
