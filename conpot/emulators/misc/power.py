@@ -28,4 +28,4 @@ class EnergyConsumption:
         self.started = calendar.timegm(time.gmtime(initial))
 
     def get_value(self):
-        return (calendar.timegm(time.gmtime()) - self.started * 10)/3600
+        return (calendar.timegm(time.gmtime()) - self.started) * 10/3600
