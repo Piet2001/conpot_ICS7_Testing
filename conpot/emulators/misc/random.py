@@ -17,9 +17,6 @@
 
 import random
 
-# variables to remember for functions
-previous2and35 = 33
-
 
 class Random8BitRegisters:
     def __init__(self):
@@ -61,9 +58,21 @@ class RandomValueBetween2And35:
 
 
 class RandomValueBetween20And50:
-    def __init__(self):
+    def __init__(self, previous=-1):
+        if previous >= 0:
+            initial = previous
+        else:
+            initial = 25
+        self.previous = initial
+
         self.start = 20
         self.end = 50
 
     def get_value(self):
-        return random.randint(self.start, self.end)
+        self.case = random.randint(0, 50)
+        if self.case < 25 and self.previous > self.start:
+            self.previous -= 1
+        else:
+            if self.previous < self.end:
+                self.previous += 1
+        return self.previous
