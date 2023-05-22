@@ -50,7 +50,7 @@ class RandomValueBetween2And35:
         self.start = 2
         self.end = 35
         print("Oldvalue: ", self.previous)
-        case = random.randint(1, 2)
+        case = random.randint(0, 1)
         print("case: ", case)
         if case == 0 and self.previous < self.start:
             self.previous -= 1
