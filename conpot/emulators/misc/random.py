@@ -50,7 +50,7 @@ class RandomValueBetween2And35:
         self.start = 2
         self.end = 35
 
-        self.case = random.randint(0, 1)
+        self.case = random.randint(0, 50)
         if self.case == 0 and self.previous < self.start:
             self.previous -= 1
         elif self.case == 1 and self.previous > self.end:
