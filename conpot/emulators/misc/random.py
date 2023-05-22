@@ -54,6 +54,7 @@ class RandomValueBetween2And35:
             print("up: ", previous2and35)
 
     def get_value(self):
+        print("end: ", previous2and35)
         return previous2and35
 
 
