@@ -40,22 +40,22 @@ class Random16bitRegister:
 
 # self defined ranges
 class RandomValueBetween2And35:
-    def __init__(self):
+    def __init__(self, previous=33):
         self.start = 2
         self.end = 35
-        print("Oldvalue: ", previous2and35)
+        print("Oldvalue: ", previous)
         case = random.randint(1, 2)
         print("case: ", case)
-        if case == 0 and previous2and35 < self.start:
-            previous2and35 -= 1
-            print("down: ", previous2and35)
-        elif case == 1 and previous2and35 > self.end:
-            previous2and35 += 1
-            print("up: ", previous2and35)
+        if case == 0 and previous < self.start:
+            self.previous -= 1
+            print("down: ", previous)
+        elif case == 1 and previous > self.end:
+            self.previous += 1
+            print("up: ", previous)
 
     def get_value(self):
-        print("end: ", previous2and35)
-        return previous2and35
+        print("end: ", self.previous)
+        return self.previous
 
 
 class RandomValueBetween20And50:
