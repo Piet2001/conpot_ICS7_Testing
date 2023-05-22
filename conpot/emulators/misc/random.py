@@ -43,13 +43,15 @@ class RandomValueBetween2And35:
     def __init__(self):
         self.start = 2
         self.end = 35
-
+        print("Oldvalue: ", previous2and35)
         case = random.randint(1, 2)
-
+        print("case: ", case)
         if case == 0 and previous2and35 < self.start:
             previous2and35 -= 1
+            print("down: ", previous2and35)
         elif case == 1 and previous2and35 > self.end:
             previous2and35 += 1
+            print("up: ", previous2and35)
 
     def get_value(self):
         return previous2and35
