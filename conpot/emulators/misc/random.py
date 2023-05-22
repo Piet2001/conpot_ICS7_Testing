@@ -58,7 +58,7 @@ class RandomValueBetween2And35:
                 self.previous += 1
 
     def get_value(self):
-        return self.case
+        return self.previous
 
 
 class RandomValueBetween20And50:
