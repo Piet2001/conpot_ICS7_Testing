@@ -29,4 +29,6 @@ class EnergyConsumption:
         self.power = 5000
 
     def get_value(self):
-        return round((calendar.timegm(time.gmtime()) - self.started) * 10/3600 * self.power, 2)
+        power = round((calendar.timegm(time.gmtime()) -
+                      self.started) * 10/3600 * self.power, 2)
+        return '{:0,.2f}'.format(power)
